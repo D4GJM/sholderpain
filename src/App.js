@@ -10,9 +10,12 @@ import Aboutus from './Pages/AboutUs/Aboutus';
 import Contactus from './Pages/Contactus/Contactus'
 import Home from './Pages/Home/Home';
 import Fantach from './Pages/Ipay/Fantach';
-import Iykonnect from './Pages/Iyconnect/Iykonnect'
-import BusinessSupport from './Pages/BusinessSuppor_Contact/BusinessSupport';
-import BusinessPersonalFinance from './Pages/Bsinessandpersonal_finance/BusinessPersonalFinance';
+import Iykonnect from './Pages/Home/IYConnect';
+import BusinessSupport from './Pages/Home/BusinessSupportConsultation';
+import BusinessPersonalFinance from './Pages/Home/BusinessFinace';
+
+
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 function App() {
   return (

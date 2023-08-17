@@ -17,7 +17,7 @@
 
 .contact-us .contact-form {
 	background-color: transparent!important;
-	padding: 0!important;
+	padding: 10px!important;
 }
 
 .callback-form {
@@ -25,7 +25,8 @@
 }
 
 .callback-form .contact-form {
-	background-color: #106EEA;
+	background: linear-gradient(360deg, hsla(217, 78%, 33%, 1) 0%, hsla(207, 86%, 14%, 1) 49%, hsla(212, 100%, 33%, 1) 100%);
+
 	padding: 60px;
 	border-radius: 5px;
 	text-align: center;
@@ -101,7 +102,7 @@
 
 .callback-form .contact-form button.border-button:hover {
 	background-color: #fff;
-	color: #106EEA;
+	color: #003375;
 }
 
 .contact-us .contact-form button.filled-button {

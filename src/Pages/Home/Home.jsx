@@ -179,7 +179,7 @@ Facts Section
               <div className="text-content">
                 <h1>Welcome to IYKONS</h1>
                 <h6>
-                  <p>
+                  <p className="sanu">
                     {/* Your paragraph content */}
                     <p>
                       IYKONS offers complete financial, IT, and business support
@@ -234,8 +234,8 @@ About Us Section
           <header className="section-header wow fadeInUp">
             <h1>Services</h1>
             <br />
-            <hr />
-            <p>We are offering</p>
+     
+            <p></p>
           </header>
           <div className="row">
             <div
@@ -249,8 +249,7 @@ About Us Section
                 <a href="">Accounting & Finance</a>
               </h4>
               <p className="description">
-                Voluptatum deleniti atque corrupti quos dolores et quas
-                molestias excepturi sint occaecati cupiditate non provident
+                
               </p>
             </div>
             <div
@@ -264,8 +263,7 @@ About Us Section
                 <a href="">Technology & Innovation</a>
               </h4>
               <p className="description">
-                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat tarad limino ata
+       
               </p>
             </div>
             <div
@@ -279,8 +277,7 @@ About Us Section
                 <a href="">Digital Marketing & Branding</a>
               </h4>
               <p className="description">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur
+            
               </p>
             </div>
             <div
@@ -295,8 +292,7 @@ About Us Section
                 <a href="">Business & Personal Finance</a>
               </h4>
               <p className="description">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum
+          
               </p>
             </div>
             <div
@@ -311,8 +307,7 @@ About Us Section
                 <a href="">Business Support & Consultancy</a>
               </h4>
               <p className="description">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque
+         
               </p>
             </div>
             <div
@@ -327,9 +322,7 @@ About Us Section
                 <a href="">IT Infrastructure Management</a>
               </h4>
               <p className="description">
-                Et harum quidem rerum facilis est et expedita distinctio. Nam
-                libero tempore, cum soluta nobis est eligendi
-              </p>
+          </p>
             </div>
           </div>
         </div>
@@ -338,10 +331,10 @@ About Us Section
       <section id="about">
         <div className="container">
           <header className="section-header">
-            <h1>IYKONS Products</h1>
+            <h1>IYKONS PRODUCTS</h1>
             <p>
               <br></br>
-              <hr></hr>
+              
               <br></br>
             </p>
           </header>
