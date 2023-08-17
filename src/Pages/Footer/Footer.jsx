@@ -82,21 +82,9 @@ export default function Footer() {
                     <Link to="/AccountandFinance">Accounting & Finance</Link>
                   </li>
                   <li>
-                    <i className="bx bx-chevron-right" />
-                    <Link to="/TechnologyandInnovation">
-                      Technology & Innovation
-                    </Link>
-                  </li>
-                  <li>
                     <i className="bx bx-chevron-right" />{" "}
                     <Link to="/DigitalMarketing">
                       Digital Marketing & Branding
-                    </Link>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right" />{" "}
-                    <Link to="/BusinessPersonalFinance">
-                      Business & Personal Finance
                     </Link>
                   </li>
                   <li>
@@ -105,14 +93,24 @@ export default function Footer() {
                       Business Support & Consultancy
                     </Link>
                   </li>
+                  <li>
+                    <i className="bx bx-chevron-right" />
+                    <Link to="/TechnologyandInnovation">
+                      Technology & Innovation
+                    </Link>
+                  </li>
+
+                  <li>
+                    <i className="bx bx-chevron-right" />{" "}
+                    <Link to="/BusinessPersonalFinance">
+                      Business & Personal Finance
+                    </Link>
+                  </li>
                 </ul>
               </div>
               <div className="col-lg-4 col-md-6 footer-newsletter">
                 <h4>Our Newsletter</h4>
-                <p>
-                  Tamen quem nulla quae legam multos aute sint culpa legam
-                  noster magna
-                </p>
+                <p></p>
                 <form action="" method="post">
                   <input type="email" name="email" />
                   <input type="submit" defaultValue="Subscribe" />
@@ -125,10 +123,14 @@ export default function Footer() {
           <div className="copyright">
             © Copyright {new Date().getFullYear()}
             <strong>
-              <span> IYKONS</span>
-            </strong>
-            . All Rights Reserved Designed by{" "}
-            <Link to="https://www.iykons.com">IYKONS</Link>
+              <span>
+                <Link to="https://www.iykons.com"> IYKONS</Link>
+              </span>
+            </strong>{" "}
+            <div>
+              {" "}
+              <Link to="">Privacy/Policy</Link>
+            </div>
           </div>
           <div className="credits">
             {/* Designed by <a href="#">Iykons</a>*/}

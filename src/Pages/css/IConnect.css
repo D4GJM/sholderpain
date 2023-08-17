@@ -12,6 +12,7 @@
   transition: all 0.4s;
 }
 
+
 .back-to-top i {
   font-size: 28px;
   color: #fff;
@@ -101,4 +102,6 @@ img.Raja{
 
 .service-alt h3, .service-alt .h3 {
   font-size: 20px;
-  color: #000; }
+  color: #000; 
+  text-align: left !important;
+}

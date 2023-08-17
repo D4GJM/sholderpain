@@ -86,39 +86,26 @@ export default function TechnologyandInnovation() {
               </div>
               <div class="col-lg-6 my-lg-5 py-lg-5">
                 <div class="about-end bg-primary p-5">
-                  <h4 class=" mb-4">IT Infrastructure Management</h4>
+                  <h4 class=" mb-4">Fintech Services And Solutions</h4>
                   <p>
-                    Our IT services and managed network services are designed to
-                    help organisations increase collaboration, achieve potential
-                    savings and increase competence, while transmuting the
-                    network to drive impact for the future.
-                    <b>
-                      {" "}
-                      We help you to systematise and streamline your IT
-                      infrastructure to enhance and support critical business
-                      requirements and new capabilities while increasing
-                      security and reducing risk.
-                    </b>{" "}
+                    As one of the leading software development companies, IYKONS
+                    has earned the trust of fintech startups as well as other
+                    enterprises for their back-end Fintech needs by providing
+                    sturdy and secure digital fintech products powered by
+                    cutting-edge technology. We provide fintech app development
+                    services and dedicated teams to a wide range of enterprises,
+                    including fintech start-ups, traditional financial, banking
+                    operations and non-financial firms. Our deep expertise and
+                    breadth of experience assure on-time delivery of
+                    next-generation fintech products.{" "}
                   </p>
-                  <h5>Benefits:</h5>
-                  <ul>
-                    <li>
-                      Increase reliability with a network that is continually
-                      available
-                    </li>
-                    <li>
-                      Take advantage of the latest cutting-edge technologies
-                    </li>
-                    <li>Build agility and flexibility,</li>
-                    <li>
-                      Equip you to be dynamic and operate in real time, meeting
-                      the requirements of new applications
-                    </li>
-                    <li>
-                      Develop virtualization and use commoditised hardware
-                    </li>
-                    <li>Reduce complexity and costs</li>
-                  </ul>
+
+                  <Link
+                    to="/Fantach"
+                    class="btn btn-secondary rounded py-md-3 px-md-5 mt-4"
+                  >
+                    Read More..
+                  </Link>
                 </div>
               </div>
             </div>

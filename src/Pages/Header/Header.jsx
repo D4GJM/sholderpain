@@ -17,26 +17,36 @@ export default function Header() {
         <div className="container d-flex justify-content-center justify-content-md-between">
           <div className="contact-info d-flex align-items-center ">
             <i className="bi bi-envelope d-flex align-items-center ms-4">
-              <a href="mailto:contact@example.com">info@iykons.com</a>
+              <Link to="mailto:info@iykons.com">info@iykons.com</Link>
             </i>
+
             <i className="bi bi-phone d-flex align-items-center ms-4">
-              <span>+44 20 3598 2904</span>
+              <Link to="tel:+44 20 3598 2904"> +44 20 3598 2904</Link>
             </i>
           </div>
 
           <div className="social-links d-none d-md-flex">
-            <a href="#" className="twitter">
+            <Link
+              to="https://www.tiktok.com/@iykons.uk?lang=en"
+              className="twitter"
+            >
               <i className="bi bi-twitter" />
-            </a>
-            <a href="#" className="facebook">
+            </Link>
+            <Link to="https://www.facebook.com/iykons/" className="facebook">
               <i className="bi bi-facebook" />
-            </a>
-            <a href="#" className="instagram">
+            </Link>
+            <Link
+              to="https://www.instagram.com/iykon.uk/"
+              className="instagram"
+            >
               <i className="bi bi-instagram" />
-            </a>
-            <a href="#" className="linkedin">
+            </Link>
+            <Link
+              to="https://www.linkedin.com/company/iykons-ltd/"
+              className="linkedin"
+            >
               <i className="bi bi-linkedin" />
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -49,8 +59,9 @@ export default function Header() {
               <span>IYKONS</span>
             </a>
   </h1>*/}
-
-            <img src={headerLog} alt="header logo" className="image" />
+            <Link to="/">
+              <img src={headerLog} alt="header logo" className="image" />
+            </Link>
             {/* Uncomment below if you prefer to use an image logo */}
             {/* <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>*/}
           </div>
@@ -78,27 +89,28 @@ export default function Header() {
                 </Link>
                 <ul>
                   <li>
-                    <Link to="/TechnologyandInnovation">
-                      Technology & Innovation
-                    </Link>
-                  </li>
-
-                  <li>
                     <Link to="/AccountandFinance">Accounting & Finance</Link>
                   </li>
+
                   <li>
                     <Link to="/DigitalMarketing">
                       Digital Marketing & Branding
                     </Link>
                   </li>
                   <li>
-                    <Link to="/BusinessPersonalFinance">
-                      Business & Personal Finance
+                    <Link to="/BusinessSupport">
+                      Business Support & Consultancy
                     </Link>
                   </li>
                   <li>
-                    <Link to="/BusinessSupport">
-                      Business Support & Consultancy
+                    <Link to="/TechnologyandInnovation">
+                      Technology & Innovation
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/BusinessPersonalFinance">
+                      Business & Personal Finance
                     </Link>
                   </li>
                 </ul>
@@ -116,7 +128,7 @@ export default function Header() {
                     <Link to="/Iykonnect">IYCONNECT</Link>
                   </li>
                   <li>
-                    <Link to="/Fantach">IYCLOCK</Link>
+                    <Link to="/Fantach">Fintech Services & Solutions</Link>
                   </li>
                 </ul>
               </li>

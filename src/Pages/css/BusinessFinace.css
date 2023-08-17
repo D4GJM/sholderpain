@@ -110,7 +110,7 @@
     background-color: #f5f5f5;
   }
   
-  /* Media query for mobile view */
+
   @media (max-width: 768px) {
     .container-first {
       max-width: 90%;

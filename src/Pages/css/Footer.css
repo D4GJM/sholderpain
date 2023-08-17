@@ -45,6 +45,7 @@ body {
     padding: 2px 0 2px 0;
     line-height: 1;
     font-weight: 700;
+    text-align: left !important;
   }
   
   #footer .footer-top .footer-info p {
@@ -82,6 +83,7 @@ body {
     color: #fff;
     position: relative;
     padding-bottom: 12px;
+    text-align: left !important;
   }
   
   #footer .footer-top .footer-links {

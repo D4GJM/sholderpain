@@ -2,23 +2,22 @@ import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Home.css";
+import "./Icons/font-awesome/css/font-awesome.min.css";
 
 import image1 from "./img/intro-carousel/1.jpg";
 import image2 from "./img/intro-carousel/2.jpg";
 import image3 from "./img/intro-carousel/3.jpg";
 import image4 from "./img/intro-carousel/4.jpg";
 import image5 from "./img/intro-carousel/5.jpg";
+
 import aboutmisson from "./img/about-mission.jpg";
 import aboutplan from "./img/about-plan.jpg";
 import aboutvision from "./img/about-vision.jpg";
-import team1 from "./img/team-1.jpg";
-import team2 from "./img/team-2.jpg";
-import team3 from "./img/team-3.jpg";
-import team4 from "./img/team-4.jpg";
+import ourHistory from "../image/ourHisory.jpg";
 import "./Icons/css/ionicons.min.css";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import SendMessage from "../SendMessaage/SendMessage";
+
 export default function Home() {
   return (
     <>
@@ -229,143 +228,6 @@ Facts Section
       {/*==========================
 About Us Section
     ============================*/}
-      <section id="about">
-        <div className="container">
-          <header className="section-header">
-            <h1>IYKONS Products</h1>
-            <p>
-              <br></br>
-              <hr></hr>
-              <br></br>
-            </p>
-          </header>
-          <div className="row about-cols">
-            <div className="col-md-4 wow fadeInUp">
-              <div className="about-col">
-                <div className="img">
-                  <img src={aboutmisson} alt="" className="img-fluid" />
-                  <div className="icon">
-                    <i className="ion-ios-speedometer-outline" />
-                  </div>
-                </div>
-                <h2 className="title">
-                  <a href="#">Fintech Services And Solutions</a>
-                </h2>
-                <p>
-                  We create new or improve existing financial solutions for our
-                  customers based on our nearly 20 years of experience in
-                  banking and financial software development. We are prepared to
-                  do market research and provide an effective fintech solution
-                  for your company for the right financial management.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-              <div className="about-col">
-                <div className="img">
-                  <img src={aboutplan} alt="" className="img-fluid" />
-                  <div className="icon">
-                    <i className="ion-ios-list-outline" />
-                  </div>
-                </div>
-                <h2 className="title">
-                  <a href="#">IYConnect</a>
-                </h2>
-                <p>
-                  IYCONNECT is a collaborative practice management platform to
-                  manage the workflow, communicate with the team, and deliver
-                  exceptional client work. IYCONNECT brings a total
-                  transformation across the entire practice, allowing any firm
-                  to maximize efficiencies, streamline processes and optimize
-                  the scale.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-              <div className="about-col">
-                <div className="img">
-                  <img src={aboutvision} alt="" className="img-fluid" />
-                  <div className="icon">
-                    <i className="ion-ios-eye-outline" />
-                  </div>
-                </div>
-                <h2 className="title">
-                  <a href="#">IYPay</a>
-                </h2>
-                <p>
-                  HR Software for SMEs that is easy and economical Are you a
-                  small or medium-sized firm seeking an easy-to-use, low-cost HR
-                  Management System? We help you streamline your HR operations
-                  by eliminating the need for time-consuming manual processes
-                  with our simple-to-implement system, leaving you more time to
-                  focus on what matters
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* #about */}
-      {/*==========================
-Call To Action Section
-    ============================*/}
-      <section id="call-to-action" className="wow fadeIn">
-        <div className="container text-left">
-          <div className="content-wrapper">
-            <div className="text-content">
-              <h3>Our History</h3>
-              <br></br>
-              <h6>
-                <p>
-                  Jey Founded IYKONS in 2008 after observing a significant gap
-                  in the SME market for a one-stop solution for aspiring
-                  business people. The IYKONS organisation and team were created
-                  to address the various challenges that running a business
-                  entails. We have a proven track record of successfully
-                  supporting hundreds of businesses across three continents.
-                </p>
-              </h6>
-              <p>
-                IYKONS manages over 500 portfolios across a variety of sectors,
-                from not-for-profit to aeronautical industries.
-              </p>
-              <p>What Makes Us the Best Choice?</p>
-              <ul>
-                <li>Cost-effective fixed fee services.</li>
-                <li>A wide range of industry expertise</li>
-                <li>Fully accredited and regulated.</li>
-                <li>
-                  We follow strict regulatory standards to safeguard our clients
-                </li>
-                <li>We are focused on customer needs and timely delivery.</li>
-                <li>
-                  Personalised services with laser-focused attention for every
-                  client.
-                </li>
-              </ul>
-              <a className="cta-btn" href="#">
-                Contact US
-              </a>
-            </div>
-            <div className="image-content">
-              <img src={image1} alt="" className="img-fluid" />
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* #call-to-action *
-
-      <section id="skills">
-        <div className="container">
-          <header className="section-header">
-            <h3>Our Skills</h3>
-            <p>fill in the blanks</p>
-          </header>
-        </div>
-  </section>*/}
-      {/*==========================
-Services Section
-    ============================*/}
 
       <section id="services">
         <div className="container">
@@ -473,133 +335,143 @@ Services Section
         </div>
       </section>
 
-      {/* #services */}
-      {/*==========================
-Team Section
-    ============================*/}
-      <section id="team">
+      <section id="about">
         <div className="container">
-          <div className="section-header wow fadeInUp">
-            <h3>Team</h3>
+          <header className="section-header">
+            <h1>IYKONS Products</h1>
             <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque
+              <br></br>
+              <hr></hr>
+              <br></br>
             </p>
-          </div>
-          <div className="row">
-            <div className="col-lg-3 col-md-6 wow fadeInUp">
-              <div className="member">
-                <img src={team1} className="img-fluid" alt="" />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Walter White</h4>
-                    <span>Chief Executive Officer</span>
-                    <div className="social">
-                      <a href="">
-                        <i className="fa fa-twitter" />
-                      </a>
-                      <a href="">
-                        <i className="fa fa-facebook" />
-                      </a>
-                      <a href="">
-                        <i className="fa fa-google-plus" />
-                      </a>
-                      <a href="">
-                        <i className="fa fa-linkedin" />
-                      </a>
-                    </div>
+          </header>
+          <div className="row about-cols">
+            <div className="col-md-4 wow fadeInUp">
+              <div className="about-col">
+                <div className="img">
+                  <img src={aboutmisson} alt="" className="img-fluid" />
+                  <div className="icon">
+                    <i className="ion-ios-speedometer-outline" />
                   </div>
                 </div>
+                <h2 className="title">
+                  <a href="#">IYKONS & Fintech </a>
+                </h2>
+                <p>
+                  We create new or improve existing financial solutions for our
+                  customers based on our nearly 20 years of experience in
+                  banking and financial software development. We are prepared to
+                  do market research and provide an effective fintech solution
+                  for your company for the right financial management.
+                </p>
               </div>
             </div>
-            <div
-              className="col-lg-3 col-md-6 wow fadeInUp"
-              data-wow-delay="0.1s"
-            >
-              <div className="member">
-                <img src={team2} className="img-fluid" alt="" />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Sarah Jhonson</h4>
-                    <span>Product Manager</span>
-                    <div className="social">
-                      <a href="">
-                        <i className="fa fa-twitter" />
-                      </a>
-                      <a href="">
-                        <i className="fa fa-facebook" />
-                      </a>
-                      <a href="">
-                        <i className="fa fa-google-plus" />
-                      </a>
-                      <a href="">
-                        <i className="fa fa-linkedin" />
-                      </a>
-                    </div>
+            <div className="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+              <div className="about-col">
+                <div className="img">
+                  <img src={aboutplan} alt="" className="img-fluid" />
+                  <div className="icon">
+                    <i className="ion-ios-list-outline" />
                   </div>
                 </div>
+                <h2 className="title">
+                  <a href="#">IYCONNECT</a>
+                </h2>
+                <p>
+                  IYCONNECT is a collaborative practice management platform to
+                  manage the workflow, communicate with the team, and deliver
+                  exceptional client work. IYCONNECT brings a total
+                  transformation across the entire practice, allowing any firm
+                  to maximize efficiencies, streamline processes and optimize
+                  the scale.
+                </p>
               </div>
             </div>
-            <div
-              className="col-lg-3 col-md-6 wow fadeInUp"
-              data-wow-delay="0.2s"
-            >
-              <div className="member">
-                <img src={team3} className="img-fluid" alt="" />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>William Anderson</h4>
-                    <span>CTO</span>
-                    <div className="social">
-                      <a href="">
-                        <i className="fa fa-twitter" />
-                      </a>
-                      <a href="">
-                        <i className="fa fa-facebook" />
-                      </a>
-                      <a href="">
-                        <i className="fa fa-google-plus" />
-                      </a>
-                      <a href="">
-                        <i className="fa fa-linkedin" />
-                      </a>
-                    </div>
+            <div className="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+              <div className="about-col">
+                <div className="img">
+                  <img src={aboutvision} alt="" className="img-fluid" />
+                  <div className="icon">
+                    <i className="ion-ios-eye-outline" />
                   </div>
                 </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-3 col-md-6 wow fadeInUp"
-              data-wow-delay="0.3s"
-            >
-              <div className="member">
-                <img src={team4} className="img-fluid" alt="" />
-                <div className="member-info">
-                  <div className="member-info-content">
-                    <h4>Amanda Jepson</h4>
-                    <span>Accountant</span>
-                    <div className="social">
-                      <a href="">
-                        <i className="fa fa-twitter" />
-                      </a>
-                      <a href="">
-                        <i className="fa fa-facebook" />
-                      </a>
-                      <a href="">
-                        <i className="fa fa-google-plus" />
-                      </a>
-                      <a href="">
-                        <i className="fa fa-linkedin" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <h2 className="title">
+                  <a href="#">IYPay</a>
+                </h2>
+                <p>
+                  HR Software for SMEs that is easy and economical Are you a
+                  small or medium-sized firm seeking an easy-to-use, low-cost HR
+                  Management System? We help you streamline your HR operations
+                  by eliminating the need for time-consuming manual processes
+                  with our simple-to-implement system.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      {/* #team */}
+      {/* #about */}
+      {/*==========================
+Call To Action Section
+    ============================*/}
+      {/*<section id="call-to-action" className="wow fadeIn">
+        <div className="container text-left">
+          <div className="content-wrapper">
+            <div className="text-content">
+              <h3>Our History</h3>
+              <br></br>
+              <h6>
+                <p>
+                  Jey Founded IYKONS in 2008 after observing a significant gap
+                  in the SME market for a one-stop solution for aspiring
+                  business people. The IYKONS organisation and team were created
+                  to address the various challenges that running a business
+                  entails. We have a proven track record of successfully
+                  supporting hundreds of businesses across three continents.
+                </p>
+              </h6>
+              <p>
+                IYKONS manages over 500 portfolios across a variety of sectors,
+                from not-for-profit to aeronautical industries.
+              </p>
+              <p>What Makes Us the Best Choice?</p>
+              <ul>
+                <li>Cost-effective fixed fee services.</li>
+                <li>A wide range of industry expertise</li>
+                <li>Fully accredited and regulated.</li>
+                <li>
+                  We follow strict regulatory standards to safeguard our clients
+                </li>
+                <li>We are focused on customer needs and timely delivery.</li>
+                <li>
+                  Personalised services with laser-focused attention for every
+                  client.
+                </li>
+              </ul>
+              <a className="cta-btn" href="#">
+                Contact US
+              </a>
+            </div>
+            <div className="image-content">
+              <img src={ourHistory} alt="" className="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* #call-to-action *
+
+      <section id="skills">
+        <div className="container">
+          <header className="section-header">
+            <h3>Our Skills</h3>
+            <p>fill in the blanks</p>
+          </header>
+        </div>
+  </section>*/}
+      {/*==========================
+Services Section
+    ============================*/}
+
       <Footer />
     </>
   );
